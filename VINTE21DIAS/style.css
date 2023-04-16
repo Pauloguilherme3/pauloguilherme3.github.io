@@ -1,0 +1,272 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff4d4d;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .logo {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Estilos do banner */
+  .banner {
+    background-image: url("https://images.unsplash.com/photo-1555081706-5a0c7e5b1ae5");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner h1 {
+    font-size: 64px;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+  }
+  
+  /* Estilos das seções */
+  section {
+    margin: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff4d4d;
+  }
+  
+  .feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .feature img {
+    width: 50%;
+  }
+  
+  .feature-text {
+    width: 45%;
+  }
+  
+  .feature-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .feature-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-links li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #ff4d4d;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #ff69b4;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos do menu de navegação */
+  nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    border-bottom: 3px solid #ff69b4;
+  }
+  
+  /* Estilos da seção de destaque */
+  section#destaque {
+    background-image: url('https://example.com/imagem-destaque.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section#destaque h2 {
+    font-size: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* Estilos da seção de recursos */
+  section#recursos {
+    padding: 50px 0;
+  }
+  
+  section#recursos h2 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  section#recursos ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  section#recursos li {
+    text-align: center;
+    margin: 0 20px;
+    max-width: 300px;
+  }
+  
+  section#recursos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  section#recursos h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section#recursos p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333333;
+    padding: 20px 0;
+    color: #ffffff;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  
